@@ -27,11 +27,13 @@ jobs:
       with:
         version: 12
     - name: yarn installation
-      uses: Borales/actions-yarn@v2.1.0|
+      uses: Borales/actions-yarn@v2.1.0
       with: 
        cmd: install
     - name: build yarn
       run: yarn build
     - name: insltall surge
+      run: npm install --g surge
+    - name: Deploying surge
       run: surge ./build Lunch-Breakfast.surge.sh --token ${{secrets. c1cfc5789fabe77662a3fe88e7495f89}}  
       
