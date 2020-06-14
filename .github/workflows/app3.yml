@@ -35,5 +35,5 @@ jobs:
     - name: insltall surge
       run: npm install --g surge
     - name: Deploying surge
-      run: surge ./build Lunch-Breakfast.surge.sh --token ${{secrets. c1cfc5789fabe77662a3fe88e7495f89}}  
+      run: surge ./build Lunch-Breakfast.surge.sh --token ${{secrets.TOKEN_SURGE}}  
       
