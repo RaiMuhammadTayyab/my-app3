@@ -8,7 +8,12 @@ function App() {
      {/* <Lunch></Lunch> */}
      {/*<Fast></Fast>*/}
       <Lunch menu1= 'Italian-Buffet' menu2= 'Chinese-Buffet' discount= '20%'/>
-<Fast menu3='Aloo bhujia' discount2='25%'/> </div>
+<Fast menu3='Aloo bhujia' discount2='25%'/>
+<b/> 
+<Fast menu3='Halwa Puri and Hot Channas' discount2='10%'/>
+
+
+</div>
   );
 }
 export default App;
